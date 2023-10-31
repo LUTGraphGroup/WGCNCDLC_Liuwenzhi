@@ -1,7 +1,5 @@
 # WGCNCDLC_Liuwenzhi
 Enhancing Disease-Related Metabolite Prediction with Weighted Graph Convolutional Networks Based on Community-Driven Link Completion
-# WGCNCDLC_Liuwenzhi
-Enhancing Disease-Related Metabolite Prediction with Weighted Graph Convolutional Networks Based on Community-Driven Link Completion
 
 # WGCNCDLC for disease-metabolite associations prediction
 
