@@ -1,7 +1,9 @@
-# WGCNCDLC_Liuwenzhi
+# WGCNCDLC
 Enhancing Disease-Related Metabolite Prediction with Weighted Graph Convolutional Networks Based on Community-Driven Link Completion
 
-# WGCNCDLC for disease-metabolite associations prediction
+## 🏠 Overview
+![image](https://github.com/LUTGraphGroup/WGCNCDLC_Liuwenzhi/assets/109469869/26127fb7-2ed2-483b-9713-12c44f72b946)
+
 
 ## Dependecies
 - Python 3.9
@@ -12,12 +14,14 @@ Enhancing Disease-Related Metabolite Prediction with Weighted Graph Convolutiona
 
 
 ## Dataset
-disease-metabolite associations:association_matrix.csv and disease-metabolite.xlsx
-Disease similarity network:diease_network_simi.csv
-Metabolite similarity network:metabolite_ntework_simi.csv
+```
+disease-metabolite associations: association_matrix.csv and disease-metabolite.xlsx
+Disease similarity network: diease_network_simi.csv
+Metabolite similarity network: metabolite_ntework_simi.csv
 community complete result: A_new_greedy.csv
+```
 
-###### Model options
+## Model options
 ```
 --epochs           int     Number of training epochs.                 Default is 500.
 --hidden           int     GCN Layer1 output dimention.               Default is 64.
@@ -28,7 +32,7 @@ community complete result: A_new_greedy.csv
 
 ```
 
-###### How to run?
+## How to run?
 ```
 1、greedy_modularity_communities.py
 2、py_code--train.py
