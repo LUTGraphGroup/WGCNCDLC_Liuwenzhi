@@ -6,11 +6,11 @@ Enhancing Disease-Related Metabolite Prediction with Weighted Graph Convolutiona
 
 
 ## Dependecies
-- Python 3.9
-- pytorch 1.12.1
-- numpy 1.22.4+mkl
-- pandas 1.4.4
-- scikit-learn 1.2.2
+- Python == 3.9
+- pytorch == 1.12.1
+- numpy == 1.22.4+mkl
+- pandas == 1.4.4
+- scikit-learn == 1.2.2
 
 
 ## Dataset
@@ -24,8 +24,9 @@ community complete result: A_new_greedy.csv
 ## Model options
 ```
 --epochs           int     Number of training epochs.                 Default is 500.
---hidden           int     GCN Layer1 output dimention.               Default is 64.
---nclass           int     GCN Layer2 output dimention                Default is 512.
+--input dim        int     initial feature dimention.                 Default is 256.
+--hidden dim       int     GCN Layer1 output dimention.               Default is 64.
+--nclass dim       int     GCN Layer2 output dimention                Default is 512.
 --dropout          float   Dropout rate                               Default is 0.1.
 --lr               float   Learning rate                              Default is 0.005.
 --wd               float   weight decay                               Default is 5e-4.
@@ -34,7 +35,8 @@ community complete result: A_new_greedy.csv
 
 ## How to run?
 ```
-1、greedy_modularity_communities.py
-2、py_code--train.py
+1. The data folder stores associations and similarities. 
+2、Run greedy_modularity_communities.py to get the completed association matrix.
+3、Run train.py in the py_code folder to get the experimental results.
 
 ```
