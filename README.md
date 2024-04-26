@@ -5,7 +5,7 @@ Enhancing Disease-Related Metabolite Prediction with Weighted Graph Convolutiona
 ![image](https://github.com/LUTGraphGroup/WGCNCDLC_Liuwenzhi/assets/109469869/26127fb7-2ed2-483b-9713-12c44f72b946)
 
 
-## Dependecies
+## 🛠️ Dependecies
 - Python == 3.9
 - pytorch == 1.12.1
 - numpy == 1.22.4+mkl
@@ -13,7 +13,7 @@ Enhancing Disease-Related Metabolite Prediction with Weighted Graph Convolutiona
 - scikit-learn == 1.2.2
 
 
-## Dataset
+## 🗓️ Dataset
 ```
 disease-metabolite associations: association_matrix.csv and disease-metabolite.xlsx
 Disease similarity network: diease_network_simi.csv
@@ -21,7 +21,7 @@ Metabolite similarity network: metabolite_ntework_simi.csv
 community complete result: A_new_greedy.csv
 ```
 
-## Model options
+## 🛠️ Model options
 ```
 --epochs           int     Number of training epochs.                 Default is 500.
 --input dim        int     initial feature dimention.                 Default is 256.
@@ -33,7 +33,7 @@ community complete result: A_new_greedy.csv
 
 ```
 
-## How to run?
+## 🎯 How to run?
 ```
 1. The data folder stores associations and similarities. 
 2、Run greedy_modularity_communities.py to get the completed association matrix.
